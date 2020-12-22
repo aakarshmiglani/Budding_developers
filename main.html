@@ -2,18 +2,24 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-   
+
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
   <script>
        function change(yes,chn){
         //    yes.style.transform='scale(1,2)';
-       
+
            var c = document.getElementById(chn);
         //    var d = document.getElementById('button');
-            
+
            c.style.display='block';
-           
+
            yes.style.display='none';
         //    yes.style.transition='all 3s ease-in-out';
        }
@@ -43,29 +49,35 @@
 
 </head>
 <body>
+  <div class="first_div">
+<P class="first">T I E T <img src="thapar_logo.png" alt="thapar_logo"></P>
+<span id ="personal" style="color:black;">
+    <a href="#"id="sh">Aakarsh Miglani</a>
+    <div id="myn" class="dropdown-content">
+        <a href="#">Profile</a>
+        <a href="#">Log Out</a>
+    </div>
+    </span>
+</span>
+<span id="personalogo">
+<i class="material-icons" >&#xe7fd;</i>
+</span>
+  </div>
+
+  <div class="second_div">
+<p class="web">WEBKIOSK</p>
+  </div>
+  <div class="forth">
+    <ul>
+    <li><a class="active" href="file:///C:/Users/hp/Desktop/webkiosk/mainpage/index.html">Home</a></li>
+    <li><a href="#news">FAQ</a></li>
+  </ul>
+
+  </div>
     <!-- HEADER -->
-    <header>
-    <div id="nav">
-        <span id="logo">
-            T.I.E.T 
-            <img id="imglogo" src="bot.png" width="20px">
-        </span>
-        
-        <span id ="personal">
-            <a href="#"id="sh">Aakarsh Miglani</a>
-            <div id="myn" class="dropdown-content">
-                <a href="#">Profile</a>
-                <a href="#">Log Out</a>
-            </div>
-            </span>
-        </span>
-        <span id="personalogo">
-        <i class="material-icons" >&#xe7fd;</i>
-        </span>
-         </div>
-    </header>
-    <hr>
-    
+    <!-- -->
+
+
 <!-- side ki info -->
 <aside>
     <div id="side">
@@ -80,11 +92,11 @@
                 </div>
             <button id="tech">Tech
 
-            </button>  
+            </button>
             <button id="tech">Stay Connected
 
-            </button>  
-            
+            </button>
+
     </div>
 
 
@@ -116,44 +128,44 @@
 
 
     <!-- Dabbe -->
-    
+
 <div class="grid-container">
     <div id='item'>
-        
+
         <div id = "pers" onmouseover="change(this,'pers1')" ><button style="cursor:not-allowed; margin-top: 8px;border: 0px;background-color: rgba(104, 88, 88,0.3);font-weight: 600; border-radius: 50px;filter:brightness(150%);">PERSONAL</button></div>
 
         <div id="pers1" onmouseout="reverse(this,'pers')">
             <button id="pta">About Me</button><br>
-            <button id= "pta">Edit Profile</button><br>          
-            
+            <button id= "pta">Edit Profile</button><br>
+
         </div>
     </div>
 
 <br>
     <div id='item'>
-        
+
         <div id = "acad" onmouseover="change(this,'acad1')" ><button style="cursor:not-allowed; margin-top: 8px;border: 0px;background-color: rgba(104, 88, 88,0.3);font-weight: 600; border-radius: 50px;filter:brightness(150%);">ACADEMIC</button></div>
 
         <div id="acad1" onmouseout="reverse(this,'acad')">
             <button id="exbtn">My Attendance</button><br>
-            <button id= "exbtn">Hostel Choice</button><br>          
+            <button id= "exbtn">Hostel Choice</button><br>
             <button id="exbtn"> Subject Registraion</button><br>
-            <button id= "exbtn">Regtd Subject Details</button><br>  
+            <button id= "exbtn">Regtd Subject Details</button><br>
         </div>
         <!-- <img src="pp.jpg" id="acadimg"> -->
     </div>
         <br>
 
-    <div id='item'>   
+    <div id='item'>
         <div id = "time" onmouseover="change(this,'time1')" ><button style="cursor:not-allowed; margin-top: 8px;border: 0px;background-color: rgba(104, 88, 88,0.3);font-weight: 600; border-radius: 50px;filter:brightness(150%);">TIME TABLE</button></div>
 
             <div id="time1" onmouseout="reverse(this,'time')">
                 <button id="exbtn">First Year</button><br>
-                <button id= "exbtn">Second Year</button><br>          
+                <button id= "exbtn">Second Year</button><br>
                 <button id="exbtn">Third Year</button><br>
                 <button id= "exbtn">Fourth Year</button><br>
             </div><br>
-   
+
     </div>
     <br>
 
@@ -161,42 +173,51 @@
         <div id = "fee" onmouseover="change(this,'fee1')" ><button style="cursor:not-allowed; margin-top: 8px;border: 0px;background-color: rgba(104, 88, 88,0.3);font-weight: 600;font-weight: bold; border-radius: 50px;filter:brightness(300%);"> FEE DETAILS</button></div>
 
         <div id="fee1" onmouseout="reverse(this,'fee')">
-            <button id= "febtn"> Info </button><br>          
+            <button id= "febtn"> Info </button><br>
             <button id="febtn"> Recipts </button><br>
-            <button id= "febtn">Pay On-line</button><br>         
+            <button id= "febtn">Pay On-line</button><br>
         </div>
     </div>
-    
-    
-    
+
+
+
     <div id='item'>
         <div id = "exam" onmouseover="change(this,'exam1')" ><button style="cursor:not-allowed; margin-top: 8px;border: 0px;background-color: rgba(104, 88, 88,0.3);font-weight: 600;font-weight: bold; border-radius: 50px;filter:brightness(300%);"> EXAM</button></div>
 
         <div id="exam1" onmouseout="reverse(this,'exam')">
         <button id="exbtn">Date Sheet</button><br>
-        <button id= "exbtn">Exam Marks</button><br>          
+        <button id= "exbtn">Exam Marks</button><br>
         <button id="exbtn"> Grades </button><br>
-        <button id= "exbtn">View CGPA</button><br>       
+        <button id= "exbtn">View CGPA</button><br>
         </div>
     </div>
 
-    
+
     <div id='item'>
         <div id = "srs" onmouseover="change(this,'srs1')" ><button style="cursor:not-allowed; margin-top: 8px;border: 0px;background-color: rgba(104, 88, 88,0.3);font-weight: 600;font-weight: bold; border-radius: 50px;filter:brightness(300%);"> SRS</button></div>
 
 
         <div id="srs1" onmouseout="reverse(this,'srs')">
         <button id="pta">New SRS Entry</button><br>
-        <button id= "pta">View Sent SRS</button><br>      
+        <button id= "pta">View Sent SRS</button><br>
         </div>
     </div>
-    
-  
+
+
 </div>
 
 
         <!-- <button id ='yes' onmouseover="change()">yes</button> -->
-        
-    
+        <div class="footer1">
+          <img src="thl.jpg" alt="thapar" class="tha">
+        <a href="https://www.facebook.com/officialTIET/"> <i class="fab fa-facebook-f" id="fb"></i></a>
+        <a href="https://twitter.com/TIETofficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter" id="twitter"></i></a>
+        <a href="https://www.instagram.com/thapar.university/"> <i class="fab fa-instagram" id="instagram"></i></a>
+        <a href="https://www.youtube.com/watch?v=vvCOSclixJE"> <i class="fab fa-youtube" id="youtube"></i></a>
+        <a href="https://in.linkedin.com/school/tietofficial/"><i class="fab fa-linkedin-in" id="linkedin"></i></a>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13771.22945241009!2d76.3647012!3d30.3564242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x93cc1f72eae1c9a8!2sTIET%20-%20Thapar%20Institute%20of%20Engineering%20And%20Technology!5e0!3m2!1sen!2sin!4v1608500245120!5m2!1sen!2sin" width="300" height="200" aria-hidden="false" tabindex="0"></iframe></div>
+
+
+
 </body>
 </html>
