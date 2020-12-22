@@ -1,447 +1,532 @@
 .web{
-  color:white;
-  position: absolute;
-  left: 90px;
-  font-size: 20px;
-margin: 0;
-top: 15px;
-}
-.first_div {
-
-  height: 70px;
-}
-
-.second_div {
-  background-color: #e31837;
-  height: 50px;
-  position: relative;
-}
-.forth{
-  background-color:#810001;
-  height: 40px;
-  position: relative;
-}
-
-.third_div {
-
-  height: 480px;
-  width: 70%;
-  margin: 50px auto 50px auto;
-  position: relative;
-  background-image:url(th3.jpg);
-background-size: 100% 100%;
-
-}
-.first {
-position: absolute;
-left: 80px;
-  font-size: 30px;
-  margin-top: 16px;
-  font-family: 'Della Respira', serif;
-}
-body{
-    margin: 0;
-}
-#personal{
-  background-color: white;
-    float : right;
-    text-align: center;
+    color:white;
     position: absolute;
-    right: 15%;
-z-index: 1;
-}
-#personalogo{
-  top:0;
-    float : right;
-    text-align: center;
-    position: absolute;
-    right: 12%;
-  background-color: white;
-
-}
- #logo{
-    position: absolute;
-    font-size: 30px;
-    left: 15%;
-    top: 20%;
-}
-
- #nav{
+    left: 90px;
+    font-size: 20px;
+  margin: 0;
+  top: 15px;
+  }
+  .first_div {
+  
+    height: 70px;
+  }
+  
+  .second_div {
+    background-color: #e31837;
     height: 50px;
-    width: 100%;
     position: relative;
-
-    /* background-color: aquamarine; */
-    border: aquamarine;
-}
-
-a{
-    text-decoration: none;
-}
-
-#pers,#acad,#time,#srs,#fee,#exam{
-    width: 200px;
-    /* position: fixed; */
-    height:150px;
-    background-color: tomato;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    border-radius: 1em;
-    /* padding-top: 50px ;  */
-    /* transition:all 10s ; */
-    /* transition-delay: 2s; */
-    position: relative;
-}
-
-
-
-#pers1,#acad1,#time1,#srs1,#fee1,#exam1{
-    background-color: chartreuse;
-    position: relative;
-    display: none;
-    width: 200px;
-    height:150px;
-    text-align: center;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-    /* padding-left: -20px; */
-    /* margin-top: 10px;
-    padding-top: 25px ;
-    padding-bottom: 25px; */
-    /* transition:all 10s ; */
-    position:relative;
-    /* transition-delay: 2s; */
-}
-
-.grid-container{
-    display:inline-grid;
-
-    grid-template-columns: 33.33% 33.333% 33.33% ;
-    grid-template-rows: 0 auto;
-    position:absolute;
-    margin-right:15px ;
-    margin: 70px 20px 20px 20px;
-    left: 15%;
-    grid-column-gap: 50px;
-
-
-
-}
-#acad{
-    background-image: url(pp.jpg);
-    background-size: 100% 100%;
-    filter: brightness(110%);
-
-
-}
-#pers{
-    background-image: url(pp.jpg);
-    background-size: 100% 100%;
-    filter: brightness(110%);
-}
-#time{
-    background-image: url(tt.png);
-    background-size: 100% 100%;
-    filter: brightness(100%);
-
-
-}
-#fee{
-    background-image: url(pg.jpeg);
-    background-size: 100% 100%;
-    filter: brightness(100%);
-    filter: contrast(80%);
-}
-#exam{
-    background-image: url(xa.jpg);
-    background-size: 100% 100%;
-    filter: brightness(100%);
-}
-#srs{
-    background-image: url(pa.jpeg);
-    background-size: 100% 100%;
-    filter: brightness(100%);
-}
-
-
-
-aside{
-
-        position: absolute;
-        width: 245px;
-        max-width: 80%;
-        min-width:10%;
-        left:1050px;
-
-        right: 12%;
-        top: 15%;
-        border-radius:15px;
-        /* margin-right:-35em; */
-        height:514px;
-        float: right;
-      margin-top: 145px;
-        font-style: italic;
-
-
-
-}
-#same{
-    width: 30%;
-    background-color: gold;
-    border: 1px solid gold;
-
-
-}
-
-/* { top: -5px;
-    text-decoration: none;
-    list-style-type: none;
-    text-align: center;
-}
-li{
+  }
+  .forth{
+    background-color:#810001;
     height: 40px;
-    width: 100%;
-    right: 10px;
-    background-color: gold;
-    color: rgba(192,192,192,0.9);
-} */
-
-#pta{
-    color: white;
-    width: 200px;
-    height:75px;
-    background-color: black;
-
-}
-#exbtn{
-    color: white;
-    width: 200px;
-    height:37.5px;
-    background-color: black;
-}
-#febtn{
-    color: white;
-    width: 200px;
-    height:50px;
-    background-color: black;
-}
-#pta:hover, #exbtn:hover,#febtn:hover{
-    background-color: rgba(1, 1, 1, 0.7);
-
-}
-
-
-#new{
-
-    display:block;
-    width: 200px;
-    border-radius: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height:85px;
-    background-color:gray;
-    color:black;
-    outline: none;
-
-
-}
-#tech{
-
-    display:inline;
-    width: 200px;
-    margin-top: 20px;
-    border-radius: 20px;
-    border-top: 2px solid grey;
-    height:65px;
-    background-color:gray;
-    color:black;
-    outline: none;
-
-}
-
-#imp{
-    display: none;
-    color: black;
-}
-
-#new:hover{
-    background-image: linear-gradient(black, gray,black);
-}
-#fb:hover{
-  color: skyblue;
-  font-size: 45px;
-}
-#fb{
+    position: relative;
+  }
+  
+  .third_div {
+  
+    height: 480px;
+    width: 70%;
+    margin: 50px auto 50px auto;
+    position: relative;
+    background-image:url(th3.jpg);
+  background-size: 100% 100%;
+  
+  }
+  .first {
   position: absolute;
-  top: 120px;
-  right: 800px;
-  font-size: 40px;
-    color:#F5FFFA;
-}
-#twitter{
-  position: absolute;
-  top: 120px;
-right: 725px;
-  font-size: 40px;
-    color:#F5FFFA;
-}
-#twitter:hover{
-  font-size: 45px;
-  color: skyblue;
-}
-#instagram{
-  position:absolute;
-  right: 650px;
-top: 120px;
-  font-size: 40px;
-  color:#F5FFFA;
-}
-#instagram:hover{
-  font-size: 45px;
-  color: skyblue;
-}
-#linkedin{
-  position: absolute;
-  right: 575px;
-top: 120px;
-  font-size: 40px;
-  color:#F5FFFA;
-
-
-}
-#linkedin:hover{
-  font-size: 45px;
-  color: skyblue;
-}
-#youtube{
-  position: absolute;
-top: 120px;
-  font-size: 40px;
-  right: 500px;
-  color:#F5FFFA;
-}
-#youtube:hover{
-  font-size: 45px;
-  color: skyblue;
-}
-iframe{
-  margin-top: 38px;
-border: 2px solid white;
-position: absolute;
-right:40px;
-}
-.tha{
-  position: absolute;
-width:300px;
- height:200px;
- margin-top: 38px;
-border: 2px solid white;
-left:40px;
-}
-.sixth_div{
-  height: 400px;
-  position: relative;
-  display: inline-block;
-}
-.hell11{
-  position: absolute;
-  top: 60px;
-  left:700px;
-}
-.hell22{
-  position: absolute;
-  top: 100px;
-  left: 700px;
-}
-#span1{
-  position: absolute;
-  top: 78px;
-  background-color: white;
-left: 460px;
-width: 140px;
-
-}
-#span2{
-  position: absolute;
-  top:118px;
-  left: 460px;
-  background-color: white;
-}
-
-
-
- .footer1{
-   background-color:#33475b;
-   height: 280px;
-   position: relative;
-   margin-top: 600px;
-
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#myn a{
-    display: none;
-
-}
-.dropdown-content {
-    display: none;
+  left: 80px;
+    font-size: 30px;
+    margin-top: 16px;
+    font-family: 'Della Respira', serif;
+  }
+  body{
+      margin: 0;
+  }
+  #personal{
+    background-color: white;
+      float : right;
+      text-align: center;
+      position: absolute;
+      right: 15%;
+  z-index: 1;
+  }
+  #personalogo{
+    top:0;
+      float : right;
+      text-align: center;
+      position: absolute;
+      right: 12%;
+    background-color: white;
+  
+  }
+   #logo{
+      position: absolute;
+      font-size: 30px;
+      left: 15%;
+      top: 20%;
+  }
+  
+   #nav{
+      height: 50px;
+      width: 100%;
+      position: relative;
+  
+      /* background-color: aquamarine; */
+      border: aquamarine;
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  
+  #pers,#acad,#time,#srs,#fee,#exam{
+      width: 200px;
+      /* position: fixed; */
+      height:150px;
+      background-color: tomato;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      border-radius: 1em;
+      /* padding-top: 50px ;  */
+      /* transition:all 10s ; */
+      /* transition-delay: 2s; */
+      position: relative;
+  }
+  
+  
+  
+  #pers1,#acad1,#time1,#srs1,#fee1,#exam1{
+      background-color: chartreuse;
+      position: relative;
+      display: none;
+      width: 200px;
+      height:150px;
+      text-align: center;
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em;
+      /* padding-left: -20px; */
+      /* margin-top: 10px;
+      padding-top: 25px ;
+      padding-bottom: 25px; */
+      /* transition:all 10s ; */
+      position:relative;
+      /* transition-delay: 2s; */
+  }
+  
+  .grid-container{
+      display:inline-grid;
+  
+      grid-template-columns: 33.33% 33.333% 33.33% ;
+      grid-template-rows: 0 auto;
+      position:absolute;
+      margin-right:15px ;
+      margin: 70px 20px 20px 20px;
+      left: 15%;
+      grid-column-gap: 50px;
+  
+  
+  
+  }
+  #acad{
+      background-image: url(pp.jpg);
+      background-size: 100% 100%;
+      filter: brightness(110%);
+  
+  
+  }
+  #pers{
+      background-image: url(pp.jpg);
+      background-size: 100% 100%;
+      filter: brightness(110%);
+  }
+  #time{
+      background-image: url(tt.png);
+      background-size: 100% 100%;
+      filter: brightness(100%);
+  
+  
+  }
+  #fee{
+      background-image: url(pg.jpeg);
+      background-size: 100% 100%;
+      filter: brightness(100%);
+      filter: contrast(80%);
+  }
+  #exam{
+      background-image: url(xa.jpg);
+      background-size: 100% 100%;
+      filter: brightness(100%);
+  }
+  #srs{
+      background-image: url(pa.jpeg);
+      background-size: 100% 100%;
+      filter: brightness(100%);
+  }
+  
+  
+  
+  aside{
+  
+          position: absolute;
+          width: 245px;
+          max-width: 80%;
+          min-width:10%;
+          left:1050px;
+  
+          right: 12%;
+          top: 15%;
+          border-radius:15px;
+          /* margin-right:-35em; */
+          height:514px;
+          float: right;
+        margin-top: 145px;
+          font-style: italic;
+  
+  
+  
+  }
+  #same{
+      width: 30%;
+      background-color: gold;
+      border: 1px solid gold;
+  
+  
+  }
+  
+  /* { top: -5px;
+      text-decoration: none;
+      list-style-type: none;
+      text-align: center;
+  }
+  li{
+      height: 40px;
+      width: 100%;
+      right: 10px;
+      background-color: gold;
+      color: rgba(192,192,192,0.9);
+  } */
+  
+  #pta{
+      color: white;
+      width: 200px;
+      height:75px;
+      background-color: black;
+  
+  }
+  #exbtn{
+      color: white;
+      width: 200px;
+      height:37.5px;
+      background-color: black;
+  }
+  #febtn{
+      color: white;
+      width: 200px;
+      height:50px;
+      background-color: black;
+  }
+  #pta:hover, #exbtn:hover,#febtn:hover{
+      background-color: rgba(1, 1, 1, 0.7);
+  
+  }
+  
+  
+  #new{
+  
+      display:block;
+      width: 200px;
+      border-radius: 15px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height:85px;
+      background-color:gray;
+      color:black;
+      outline: none;
+  
+  
+  }
+  #tech{
+  
+      display:inline;
+      width: 200px;
+      margin-top: 20px;
+      border-radius: 20px;
+      border-top: 2px solid grey;
+      height:65px;
+      background-color:gray;
+      color:black;
+      outline: none;
+  
+  }
+  
+  #imp{
+      display: none;
+      color: black;
+  }
+  
+  #new:hover,#tech:hover{
+      background-image: linear-gradient(black, gray,black);
+  }
+  #fb:hover{
+    color: skyblue;
+    font-size: 45px;
+  }
+  #fb{
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    top: 120px;
+    right: 800px;
+    font-size: 40px;
+      color:#F5FFFA;
   }
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+  #twitter{
+    position: absolute;
+    top: 120px;
+  right: 725px;
+    font-size: 40px;
+      color:#F5FFFA;
+  }
+  #twitter:hover{
+    font-size: 45px;
+    color: skyblue;
+  }
+  #instagram{
+    position:absolute;
+    right: 650px;
+  top: 120px;
+    font-size: 40px;
+    color:#F5FFFA;
+  }
+  #instagram:hover{
+    font-size: 45px;
+    color: skyblue;
+  }
+  #linkedin{
+    position: absolute;
+    right: 575px;
+  top: 120px;
+    font-size: 40px;
+    color:#F5FFFA;
+  
+  
+  }
+  #linkedin:hover{
+    font-size: 45px;
+    color: skyblue;
+  }
+  #youtube{
+    position: absolute;
+  top: 120px;
+    font-size: 40px;
+    right: 500px;
+    color:#F5FFFA;
+  }
+  #youtube:hover{
+    font-size: 45px;
+    color: skyblue;
+  }
+  iframe{
+    margin-top: 38px;
+  border: 2px solid white;
+  position: absolute;
+  right:40px;
+  }
+  .tha{
+    position: absolute;
+  width:300px;
+   height:200px;
+   margin-top: 38px;
+  border: 2px solid white;
+  left:40px;
+  }
+  .sixth_div{
+    height: 400px;
+    position: relative;
+    display: inline-block;
+  }
+  .hell11{
+    position: absolute;
+    top: 60px;
+    left:700px;
+  }
+  .hell22{
+    position: absolute;
+    top: 100px;
+    left: 700px;
+  }
+  #span1{
+    position: absolute;
+    top: 78px;
+    background-color: white;
+  left: 460px;
+  width: 140px;
+  
+  }
+  #span2{
+    position: absolute;
+    top:118px;
+    left: 460px;
+    background-color: white;
+  }
+  
+  
+  
+   .footer1{
+     background-color:#33475b;
+     height: 280px;
+     position: relative;
+     margin-top: 600px;
+  
+   }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #myn a{
+      display: none;
+  
+  }
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 100px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+  
+  .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {background-color: #ddd;}
+  
+    #personal:hover .dropdown-content {
+  background-color: white;
+      display: block;}
+  
+    #myProgress {
+      width: 100%;
+      margin-top: 25px;
+      background-color: #ddd;
+      margin-right: 12px;
+      border-radius: 25px;
+    }
+  
+    #myBar {
+      width: 50%;
+      border-radius: 25px;
+      height: 30px;
+      /* border-top-left-radius:25px ;
+      border-bottom-left-radius:25px ; */
+      background-image: linear-gradient(rgb(51, 177, 51),green);
+      text-align: center;
+      line-height: 30px;
+      color: white;
+    }
+  
+  @media only screen and(max-width:1000px){
+          .grid-container{
+              display:inline;
+              grid-template-columns: auto auto;
+              grid-row: 0;
+              margin: 10px;
+          }
+  }
+  
+/* AAKARSH  */
+.but {
+    border-radius: 15px;
+  }
+  
+  #ps {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #810001;
+    position: absolute;
+    left: 73px;
+    height: 40px;
+  }
+  
+#pa {
+    float: left;
+  }
+  #pa a {
     display: block;
-  }
-  .dropdown-content a:hover {background-color: #ddd;}
-
-  #personal:hover .dropdown-content {
-background-color: white;
-    display: block;}
-
-  #myProgress {
-    width: 100%;
-    margin-top: 25px;
-    background-color: #ddd;
-    margin-right: 12px;
-    border-radius: 25px;
-  }
-
-  #myBar {
-    width: 50%;
-    border-radius: 25px;
-    height: 30px;
-    /* border-top-left-radius:25px ;
-    border-bottom-left-radius:25px ; */
-    background-image: linear-gradient(rgb(51, 177, 51),green);
-    text-align: center;
-    line-height: 30px;
     color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #pa a:hover {
+    background-color: #e31837;
   }
 
-@media only screen and(max-width:1000px){
-        .grid-container{
-            display:inline;
-            grid-template-columns: auto auto;
-            grid-row: 0;
-            margin: 10px;
-        }
-}
+
+  .first_div {
+    
+    position: relative;
+
+    height: 70px;
+  }
+  #imgg{
+    width: 28px;
+    height: 28px;
+  }
+  .second_div {
+    background-color: #e31837;
+    height: 50px;
+    position: relative;
+  }
+  .forth{
+    background-color:#810001;
+    height: 40px;
+    position: relative;
+  }
+  
+.first {
+    position: absolute;
+    left: 80px;
+      font-size: 30px;
+      margin-top: 16px;
+      font-family: 'Della Respira', serif;
+    }
+  
+  .third_div {
+  
+    height: 480px;
+    width: 70%;
+    margin: 50px auto 50px auto;
+    position: relative;
+    background-image:url(th3.jpg);
+  background-size: 100% 100%;
+  
+  }
+  .fifth_div{
+    height: 350px;
+    width: 70%;
+    margin: auto;
+    font-size: 24px;
+  }
+
+
+
+
+
+
+
