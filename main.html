@@ -1,0 +1,202 @@
+<!doctype html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   
+   <link rel="stylesheet" href="style.css">
+
+  <script>
+       function change(yes,chn){
+        //    yes.style.transform='scale(1,2)';
+       
+           var c = document.getElementById(chn);
+        //    var d = document.getElementById('button');
+            
+           c.style.display='block';
+           
+           yes.style.display='none';
+        //    yes.style.transition='all 3s ease-in-out';
+       }
+       function reverse(yes,chn){
+        // yes.style.transform='scale(1,2)';
+           var c = document.getElementById(chn);
+           c.style.display='block';
+           yes.style.display='none';
+       }
+
+       function show(){
+           var d = document.getElementById("imp");
+           if (d.style.display==='none'){
+               d.style.display='block';
+           }
+           else{
+               d.style.display='none';
+           }
+       }
+  </script>
+
+
+
+
+
+
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+    <div id="nav">
+        <span id="logo">
+            T.I.E.T 
+            <img id="imglogo" src="bot.png" width="20px">
+        </span>
+        
+        <span id ="personal">
+            <a href="#"id="sh">Aakarsh Miglani</a>
+            <div id="myn" class="dropdown-content">
+                <a href="#">Profile</a>
+                <a href="#">Log Out</a>
+            </div>
+            </span>
+        </span>
+        <span id="personalogo">
+        <i class="material-icons" >&#xe7fd;</i>
+        </span>
+         </div>
+    </header>
+    <hr>
+    
+<!-- side ki info -->
+<aside>
+    <div id="side">
+
+            <button id="new" onclick="show()">Latest Updates
+                </button>
+            <div id="imp">
+                <ul>
+                    <li> 1st Semester ends on March 20th</li>
+                    <li> Mid-term starts from 3 Jan 2021</li>
+                </ul>
+                </div>
+            <button id="tech">Tech
+
+            </button>  
+            <button id="tech">Stay Connected
+
+            </button>  
+            
+    </div>
+
+
+    <div id="myProgress">
+        <div id="myBar">0%</div>
+      </div>
+     <centre> <span>Academic Semester</span></centre>
+
+    </aside>
+<script>
+    var i =1;
+    var elem = document.getElementById("myBar");
+    var width = 0;
+    var id = setInterval(frame, 15);
+    function frame() {
+        if(width<50){
+        width++;
+        elem.style.width = width + "%";
+        elem.innerHTML = width + "%";
+    }}</script>
+
+
+
+
+
+
+
+
+
+
+    <!-- Dabbe -->
+    
+<div class="grid-container">
+    <div id='item'>
+        
+        <div id = "pers" onmouseover="change(this,'pers1')" ><button style="cursor:not-allowed; margin-top: 8px;border: 0px;background-color: rgba(104, 88, 88,0.3);font-weight: 600; border-radius: 50px;filter:brightness(150%);">PERSONAL</button></div>
+
+        <div id="pers1" onmouseout="reverse(this,'pers')">
+            <button id="pta">About Me</button><br>
+            <button id= "pta">Edit Profile</button><br>          
+            
+        </div>
+    </div>
+
+<br>
+    <div id='item'>
+        
+        <div id = "acad" onmouseover="change(this,'acad1')" ><button style="cursor:not-allowed; margin-top: 8px;border: 0px;background-color: rgba(104, 88, 88,0.3);font-weight: 600; border-radius: 50px;filter:brightness(150%);">ACADEMIC</button></div>
+
+        <div id="acad1" onmouseout="reverse(this,'acad')">
+            <button id="exbtn">My Attendance</button><br>
+            <button id= "exbtn">Hostel Choice</button><br>          
+            <button id="exbtn"> Subject Registraion</button><br>
+            <button id= "exbtn">Regtd Subject Details</button><br>  
+        </div>
+        <!-- <img src="pp.jpg" id="acadimg"> -->
+    </div>
+        <br>
+
+    <div id='item'>   
+        <div id = "time" onmouseover="change(this,'time1')" ><button style="cursor:not-allowed; margin-top: 8px;border: 0px;background-color: rgba(104, 88, 88,0.3);font-weight: 600; border-radius: 50px;filter:brightness(150%);">TIME TABLE</button></div>
+
+            <div id="time1" onmouseout="reverse(this,'time')">
+                <button id="exbtn">First Year</button><br>
+                <button id= "exbtn">Second Year</button><br>          
+                <button id="exbtn">Third Year</button><br>
+                <button id= "exbtn">Fourth Year</button><br>
+            </div><br>
+   
+    </div>
+    <br>
+
+    <div id='item'>
+        <div id = "fee" onmouseover="change(this,'fee1')" ><button style="cursor:not-allowed; margin-top: 8px;border: 0px;background-color: rgba(104, 88, 88,0.3);font-weight: 600;font-weight: bold; border-radius: 50px;filter:brightness(300%);"> FEE DETAILS</button></div>
+
+        <div id="fee1" onmouseout="reverse(this,'fee')">
+            <button id= "febtn"> Info </button><br>          
+            <button id="febtn"> Recipts </button><br>
+            <button id= "febtn">Pay On-line</button><br>         
+        </div>
+    </div>
+    
+    
+    
+    <div id='item'>
+        <div id = "exam" onmouseover="change(this,'exam1')" ><button style="cursor:not-allowed; margin-top: 8px;border: 0px;background-color: rgba(104, 88, 88,0.3);font-weight: 600;font-weight: bold; border-radius: 50px;filter:brightness(300%);"> EXAM</button></div>
+
+        <div id="exam1" onmouseout="reverse(this,'exam')">
+        <button id="exbtn">Date Sheet</button><br>
+        <button id= "exbtn">Exam Marks</button><br>          
+        <button id="exbtn"> Grades </button><br>
+        <button id= "exbtn">View CGPA</button><br>       
+        </div>
+    </div>
+
+    
+    <div id='item'>
+        <div id = "srs" onmouseover="change(this,'srs1')" ><button style="cursor:not-allowed; margin-top: 8px;border: 0px;background-color: rgba(104, 88, 88,0.3);font-weight: 600;font-weight: bold; border-radius: 50px;filter:brightness(300%);"> SRS</button></div>
+
+
+        <div id="srs1" onmouseout="reverse(this,'srs')">
+        <button id="pta">New SRS Entry</button><br>
+        <button id= "pta">View Sent SRS</button><br>      
+        </div>
+    </div>
+    
+  
+</div>
+
+
+        <!-- <button id ='yes' onmouseover="change()">yes</button> -->
+        
+    
+</body>
+</html>
